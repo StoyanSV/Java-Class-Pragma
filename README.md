@@ -5,11 +5,11 @@
 
     My mood:
 
-    > excited
+    > EXCITED
 
     My favorite color:
 
-    > red
+    > RED
 
     Thank you so much for reading! ☺
 
