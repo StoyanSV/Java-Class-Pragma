@@ -1,4 +1,4 @@
-public class StudentDemo {
+public class Collage {
     public static void main(String[] args) {
         Student petar = new Student("Petar","History",29);
         Student jana = new Student("Jana", "Philosophy", 25);
