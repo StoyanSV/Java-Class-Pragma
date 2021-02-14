@@ -20,8 +20,19 @@ public class Demo6 {
 
 
         for (int i = 0; i < array.length; i++) {
+            if (array[i] instanceof Students) {
+                ((Students) array[i]).showSudentInfo();
+                continue;
+            }
+            if (array[i] instanceof Employee){
+                ((Employee) array[i]).showEmployeeInfo();
+                continue;
+            }
             if (array[i] instanceof Person) {
                 array[i].showPersonInfo();
+
+
+
             }
         }
 //        for (int i = 0; i < array.length; i++) {
