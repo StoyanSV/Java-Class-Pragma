@@ -19,6 +19,7 @@ public class Demo6 {
         array[5] = luke;
 
 
+
         for (int i = 0; i < array.length; i++) {
             if (array[i] instanceof Students) {
                 ((Students) array[i]).showSudentInfo();
